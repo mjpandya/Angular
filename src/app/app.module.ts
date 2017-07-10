@@ -16,6 +16,7 @@ import { SpecialOffersComponentComponent } from './special-offers-component/spec
 import { DealOfTheWeekComponentComponent } from './deal-of-the-week-component/deal-of-the-week-component.component';
 import { LatestNewsComponentComponent } from './latest-news-component/latest-news-component.component';
 import { FooterComponentComponent } from './footer-component/footer-component.component';
+import { BigOfferComponentComponent } from './big-offer-component/big-offer-component.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FooterComponentComponent } from './footer-component/footer-component.co
     SpecialOffersComponentComponent,
     DealOfTheWeekComponentComponent,
     LatestNewsComponentComponent,
-    FooterComponentComponent
+    FooterComponentComponent,
+    BigOfferComponentComponent
   ],
   imports: [
     BrowserModule,
