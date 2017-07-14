@@ -20,5 +20,8 @@ headerMenu: HeaderMenu[];
         console.log(err)
       }
     )
+    this.headerMenu.forEach( menu =>
+       console.log ("MENU+++++++++" + menu)
+    );
   }
 }
